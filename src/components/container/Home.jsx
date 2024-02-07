@@ -1,12 +1,11 @@
-import React from 'react'
-import hero from "../../assets/hero.png"
+import hero from "../../assets/hero.webp"
 import { logos } from '../../Data'
 
 const Home = () => {
   return (
     <div className='section' id='home'>
       <div className='md:flex items-center justify-center'>
-        <div>
+        <div >
           <div className="font-bold text-x text-Teal mb-4 ">
             {" "}
             Revolutionizing Online Education
@@ -32,7 +31,7 @@ const Home = () => {
         </p>
         <div className=' mt-8 flex items-center justify-center flex-wrap gap-8 p-2'>
           {logos.map((logo, index) => (
-            <div className='w-28' key={index}>
+            <div className='w-28 ' key={index}>
               <img src={logo} alt="Logos" className='w-full object-cover' />
             </div>
           ))}

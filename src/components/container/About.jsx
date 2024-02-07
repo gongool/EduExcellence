@@ -1,5 +1,4 @@
-import React from 'react'
-import about from "../../assets/about.jpg"
+import about from "../../assets/About.webp"
 
 const About = () => {
   return (
