@@ -5,7 +5,6 @@ import MobileNavLinks from "./MobileNavLinks";
 import NavLink from "./NavLink";
 import { motion } from "framer-motion";
 
-import edulogo from "../../../assets/edulogo.png";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -43,7 +42,7 @@ const Navbar = () => {
               return <NavLink key={navLink.id} {...navLink} />;
             })}
           </div>
-          <button className="py-3 px-6 font-bold text-sm border border-solid rounded-lg border-gray">
+          <button className="py-2.5 px-5 font-bold text-sm border border-solid rounded-lg border-gray hover:bg-Teal hover:text-white">
             Enquire
           </button>
           {toggle && (
