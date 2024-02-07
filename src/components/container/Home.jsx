@@ -26,11 +26,11 @@ const Home = () => {
           <img src={hero} />
         </div>
       </div>
-      <div>
-        <p className='text-center text-xl '>
+      <div className='mt-4'>
+        <p className='mt-4 text-center text-xl '>
           We Collaborate With <span className='text-Teal'> 100+ innovative schools, educators, and training centers at the forefront of education.</span>
         </p>
-        <div className='flex itesm-center justify-center flex-wrap gap-8 p-2'>
+        <div className=' mt-8 flex items-center justify-center flex-wrap gap-8 p-2'>
           {logos.map((logo, index) => (
             <div className='w-28' key={index}>
               <img src={logo} alt="Logos" className='w-full object-cover' />

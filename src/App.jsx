@@ -1,3 +1,4 @@
+import React, { useState, useEffect } from 'react';
 import {
   Navbar,
   Home,
@@ -6,22 +7,35 @@ import {
   Teacher,
   Contact,
   Footer
-} from "./components/index"
+} from "./components/index";
+
+import LoadingScreen from './components/container/LoadingScreen/LoadingScreen';
 
 const App = () => {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 4000);
+
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
-    <div className="font-poppins bg-Solitude">
+    <>
+      <div className={loading ? "hidden" : "font-poppins bg-Solitude"}>
+        <Navbar />
+        <Home />
+        <About />
+        <Courses />
+        <Teacher />
+        <Contact />
+        <Footer />
+      </div>
+      {loading && <LoadingScreen />}
+    </>
+  );
+};
 
-      <Navbar />
-      <Home />
-      <About />
-      <Courses />
-      <Teacher />
-      <Contact />
-      <Footer />
-
-    </div>
-  )
-}
-
-export default App
+export default App;
