@@ -1,11 +1,17 @@
 import React, { useState } from "react";
 import { BsChevronDown } from "react-icons/bs";
 import { motion, AnimatePresence } from "framer-motion";
+import { accordions } from "../../Data";
+
 const Accordion = ({ id, title }) => {
     const [activeIndex, setActiveIndex] = useState(null);
     const handleClick = (id) => {
         setActiveIndex(id === activeIndex ? null : id);
     };
+
+
+    const accordionItem = accordions.find((item) => item.id === id);
+
     return (
         <div className="pb-8">
             <div className="flex items-center justify-between">
@@ -26,12 +32,8 @@ const Accordion = ({ id, title }) => {
                         style={{ overflow: "hidden" }}
                         className="pt-4"
                     >
-                        <p className="text-sm leading-7 text-gray">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, eum
-                            beatae porro voluptatum aspernatur, id nesciunt reiciendis maxime
-                            unde necessitatibus illum accusamus mollitia incidunt qui nisi
-                            tempora facere magni magnam?
-                        </p>
+                        {/* Display the answer from the data */}
+                        <p className="text-sm leading-7 text-gray">{accordionItem.answer}</p>
                     </motion.div>
                 )}
             </AnimatePresence>

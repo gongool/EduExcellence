@@ -1,4 +1,4 @@
-import { FiUsers, FiBook, FiMessageCircle, FiSettings, FiMonitor, FiSmartphone, FiLayers } from "react-icons/fi";
+import { FiUsers, FiBook, FiMessageCircle, FiSettings, FiMonitor, FiSmartphone, FiLayers, FiGlobe } from "react-icons/fi";
 
 import courses1 from "./assets/courses1.jpg";
 import courses2 from "./assets/courses2.jpg";
@@ -79,6 +79,11 @@ export const categories = [
         id: 7,
         icon: <FiLayers />,
         category: "Add-on Management",
+    },
+    {
+        id: 8,
+        icon: <FiGlobe />,
+        category: "Multi Language",
     },
 ];
 
@@ -162,18 +167,18 @@ export const logos = [logo1, logo2, logo3, logo4, logo5, logo6];
 export const accordions = [
     {
         id: 1,
-        title: "What is Skillex?",
+        title: "What is EduExcellence?",
+        answer: "EduExcellence is an innovative Learning Management System (LMS) website designed to elevate the educational experience. This platform seamlessly integrates advanced technology with user-friendly interfaces, offering a comprehensive solution for educational institutions and learners alike. EduExcellence provides a centralized hub for course management, content delivery, and interactive learning activities. With robust features such as real-time progress tracking, collaborative tools, and personalized assessments, EduExcellence empowers educators to create engaging and dynamic online courses. Students benefit from a flexible and intuitive platform that enhances their learning journey, fostering academic success. EduExcellence is committed to shaping the future of education by embracing cutting-edge technology to make learning accessible, interactive, and tailored to individual needs.",
     },
     {
         id: 2,
-        title: "What can I learn from Skillex?",
+        title: "What are EduExcellence Features?",
+        answer: "Explore our platform's comprehensive features designed to streamline school management processes. From HR and admission management to parent communication and learning tools, our tailored resources cover a wide range of functionalities to support educational institutions. Discover how our platform can simplify administrative tasks, foster effective communication, and enhance overall school operations.",
     },
     {
         id: 3,
-        title: "Can I teach on Skillex?",
+        title: "How can EduExcellence benefit my institution?",
+        answer: "EduExcellence offers a range of benefits for educational institutions, including streamlined administrative processes, enhanced communication with stakeholders, and improved student engagement. By leveraging our platform, institutions can save time and resources on tasks such as HR management, admissions, and course delivery. Additionally, EduExcellence provides valuable insights through analytics and reporting tools, enabling institutions to make data-driven decisions to improve performance and outcomes."
     },
-    {
-        id: 4,
-        title: "What is included in my Skillex membership?",
-    },
+
 ];

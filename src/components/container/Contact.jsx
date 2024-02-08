@@ -7,10 +7,8 @@ const Contact = () => {
         <div className="sm:text-3xl text-2xl font-bold mb-5">
           Subscribe Newsletter
         </div>
-        <p className="text-sm leading-7 text-gray">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum autem
-          minus doloribus voluptatem illo velit quia eum aperiam! Repudiandae,
-          tempore. Lorem ipsum dolor sit amet.
+        <p className="text-sm leading-7 text-gray line-clamp-1 hover:line-clamp-none">
+        Discover Limitless Learning: Elevate Your Educational Journey with Our Comprehensive Platform, Fostering Excellence and Empowering Growth
         </p>
         <motion.form
           initial={{ scale: 0 }}
