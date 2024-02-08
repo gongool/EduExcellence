@@ -1,7 +1,4 @@
-import { FiPenTool } from "react-icons/fi";
-import { FaLaptopCode } from "react-icons/fa";
-import { BsBarChartLine } from "react-icons/bs";
-import { MdOutlineScience } from "react-icons/md";
+import { FiUsers, FiBook, FiMessageCircle, FiSettings, FiMonitor, FiSmartphone, FiLayers } from "react-icons/fi";
 
 import courses1 from "./assets/courses1.jpg";
 import courses2 from "./assets/courses2.jpg";
@@ -50,23 +47,38 @@ export const navLinks = [
 export const categories = [
     {
         id: 1,
-        icon: <FiPenTool />,
-        category: "Design",
+        icon: <FiUsers />,
+        category: "HR Management",
     },
     {
         id: 2,
-        icon: <FaLaptopCode />,
-        category: "Development",
+        icon: <FiBook />,
+        category: "Admission Management",
     },
     {
         id: 3,
-        icon: <BsBarChartLine />,
-        category: "Business",
+        icon: <FiMessageCircle />,
+        category: "Parent Communication",
     },
     {
         id: 4,
-        icon: <MdOutlineScience />,
-        category: "Science",
+        icon: <FiSettings />,
+        category: "Learning Management",
+    },
+    {
+        id: 5,
+        icon: <FiMonitor />,
+        category: "Finance Management",
+    },
+    {
+        id: 6,
+        icon: <FiSmartphone />,
+        category: "Website & Mobile App",
+    },
+    {
+        id: 7,
+        icon: <FiLayers />,
+        category: "Add-on Management",
     },
 ];
 
@@ -74,26 +86,26 @@ export const courses = [
     {
         id: 1,
         image: courses1,
-        category: "Web Design",
-        title: "The Complete Web Design Course",
+        category: "English Language",
+        title: "Advanced English Composition",
         rating: 4.9,
         participants: 500,
-        price: 105,
+        price: 75,
     },
     {
         id: 2,
         image: courses2,
-        category: "Web Development",
-        title: "FullStack Web Development Course",
+        category: "Mathematics",
+        title: "Algebra Fundamentals",
         rating: 4.8,
         participants: 700,
-        price: 125,
+        price: 75,
     },
     {
         id: 3,
         image: courses3,
-        category: "Web Development",
-        title: "Python Beginner to Advanced Course",
+        category: "Science",
+        title: "Introduction to Biology",
         rating: 4.9,
         participants: 300,
         price: 99,
@@ -101,8 +113,8 @@ export const courses = [
     {
         id: 4,
         image: courses4,
-        category: "Web Design",
-        title: "UI/UX Design Crazy Course With Harrys",
+        category: "Computer Science",
+        title: "Web Development Basics",
         rating: 4.7,
         participants: 600,
         price: 85,
@@ -110,8 +122,8 @@ export const courses = [
     {
         id: 5,
         image: courses5,
-        category: "AI Development",
-        title: "AI Development With Python (complete beginner course)",
+        category: "English Language",
+        title: "Effective Communication Skills",
         rating: 4.9,
         participants: 500,
         price: 105,
@@ -119,8 +131,8 @@ export const courses = [
     {
         id: 6,
         image: courses6,
-        category: "Web Design",
-        title: "The Complete Web Design Course",
+        category: "Mathematics",
+        title: "Geometry Essentials",
         rating: 4.9,
         participants: 500,
         price: 105,
@@ -128,8 +140,8 @@ export const courses = [
     {
         id: 7,
         image: courses7,
-        category: "Web Design",
-        title: "The Complete Web Design Course",
+        category: "Science",
+        title: "Chemistry Fundamentals",
         rating: 4.9,
         participants: 500,
         price: 105,
@@ -137,8 +149,8 @@ export const courses = [
     {
         id: 8,
         image: courses8,
-        category: "Web Design",
-        title: "The Complete Web Design Course",
+        category: "Computer Science",
+        title: "Introduction to Programming",
         rating: 4.9,
         participants: 500,
         price: 105,

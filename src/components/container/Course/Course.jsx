@@ -1,4 +1,3 @@
-import React from "react";
 import { AiOutlineUser, AiOutlineStar } from "react-icons/ai";
 
 const Course = ({ image, category, title, participants, rating, price }) => {

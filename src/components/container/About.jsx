@@ -14,8 +14,8 @@ const About = () => {
               Educational Solutions
             </span>
           </div>
-          <p className='text-sm text-gray leading-7 mb-4'>Revolutionizing the way we learn, our state-of-the-art platform offers unparalleled opportunities for growth and innovation. Say goodbye to traditional learning methods and embrace a future of limitless possibilities.</p>
-          <button className='py-3 px-6 border border-solid border-gray rounded-lg font-bold'>Learn More</button>
+          <p className='text-sm text-gray leading-7 mb-4 line-clamp-2 hover:line-clamp-none'>Revolutionizing the way we learn, our state-of-the-art platform offers unparalleled opportunities for growth and innovation. Say goodbye to traditional learning methods and embrace a future of limitless possibilities.</p>
+          <button className='py-3 px-6 border border-solid border-gray rounded-lg font-bold hover:scale-110'>Learn More</button>
 
         </div>
       </div>
