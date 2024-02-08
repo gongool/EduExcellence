@@ -16,7 +16,7 @@ const Footer = () => {
       transition={{ duration: 1 }}
       className="bg-Teal p-10"
     >
-      <div className="grid md:grid-cols-4 sm:grid-cols-3 xs:grid-cols-2 grid-cols-1 place-items-start gap-8 text-white">
+      <div className="grid md:grid-cols-4 sm:grid-cols-3 xs:grid-cols-2 grid-cols-1 place-items-start gap-8 text-white ">
         <div>
           <div className="font-bold mb-6">Location</div>
           <div className="flex flex-col items-start gap-4">
