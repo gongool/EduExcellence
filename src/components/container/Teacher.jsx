@@ -1,8 +1,8 @@
-import React from "react";
 import teacher1 from "../../assets/teacher1.png";
 import teacher2 from "../../assets/teacher2.png";
 import { accordions } from "../../Data";
 import Accordion from "./Accordion";
+
 const Teacher = () => {
   return (
     <div className="section" id="teacher">
@@ -13,17 +13,14 @@ const Teacher = () => {
             Our Platform
           </div>
           <p className="text-sm leading-7 text-gray mb-5">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
-            perferendis debitis dolorum facilis culpa, quidem voluptate suscipit
-            deserunt. Magni neque at eos dolore dignissimos fugit repudiandae?
-            Aut laudantium asperiores et!
+            Are you passionate about teaching and sharing your knowledge with others? Join our platform as an instructor and become part of a vibrant community of educators. Whether you're an expert in a specific subject or have valuable skills to offer, our platform provides you with the tools and resources to create engaging and interactive courses. Start making a difference in the lives of learners around the world today.
           </p>
           <button className="py-3 px-4 bg-Teal text-white rounded-lg text-sm font-bold ">
             Start Teaching
           </button>
         </div>
         <div className="p-4 md:w-3/4 sm:row-start-1">
-          <img src={teacher1} alt="" />
+          <img src={teacher1} alt="Teacher 1" />
         </div>
         <div className="pl-5">
           <div className="font-bold sm:text-[1.875rem] text-[1.5rem] mb-5">
@@ -31,17 +28,14 @@ const Teacher = () => {
             Our Platform
           </div>
           <p className="text-sm leading-7 text-gray mb-5">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
-            perferendis debitis dolorum facilis culpa, quidem voluptate suscipit
-            deserunt. Magni neque at eos dolore dignissimos fugit repudiandae?
-            Aut laudantium asperiores et!
+            Are you ready to share your expertise and inspire learners worldwide? Join our platform as an instructor and unlock endless opportunities to showcase your skills. Whether you're an experienced educator or a passionate professional, our platform empowers you to create impactful courses that engage and motivate learners. Start your journey as an instructor today and make a positive impact on the future of education.
           </p>
           <button className="py-3 px-4 bg-Teal text-white rounded-lg text-sm font-bold ">
             Get Started
           </button>
         </div>
         <div className="p-4 md:w-3/4">
-          <img src={teacher2} alt="" />
+          <img src={teacher2} alt="Teacher 2" />
         </div>
       </div>
       <div className="text-center my-8 font-bold sm:text-[1.875rem] text-[1.5rem]">
