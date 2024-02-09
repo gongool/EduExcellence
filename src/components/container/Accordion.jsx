@@ -32,8 +32,8 @@ const Accordion = ({ id, title }) => {
                         style={{ overflow: "hidden" }}
                         className="pt-4"
                     >
-                        {/* Display the answer from the data */}
-                        <p className="text-sm leading-7 text-gray">{accordionItem.answer}</p>
+                        
+                        <p className="text-sm leading-7 text-gray text-justify">{accordionItem.answer}</p>
                     </motion.div>
                 )}
             </AnimatePresence>
