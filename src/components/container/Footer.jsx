@@ -4,7 +4,7 @@ import {
   BsInstagram,
   BsTwitter,
   BsPinterest,
-  BsLinkedin, // Import LinkedIn icon
+  BsLinkedin, 
 } from "react-icons/bs";
 import { motion } from "framer-motion";
 

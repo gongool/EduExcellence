@@ -10,8 +10,8 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, {
-        publicKey: 'YOUR_PUBLIC_KEY',
+      .sendForm('service_hwnxc68', 'template_getvv9m', form.current, {
+        publicKey: 'CGFUCqicsyJAaslEV',
       })
       .then(
         () => {
@@ -41,7 +41,7 @@ const Contact = () => {
               <label className="block mb-2 text-Teal font-bold">Name</label>
               <input
                 type="text"
-                name="user_name"
+                name="name"
                 placeholder="Enter your name"
                 className="sm:p-3 p-2 outline-none text-sm shadow-md w-full"
               />
@@ -50,7 +50,7 @@ const Contact = () => {
               <label className="block mb-2 text-Teal font-bold">Email</label>
               <input
                 type="email"
-                name="user_email"
+                name="email"
                 placeholder="Enter your email"
                 className="sm:p-3 p-2 outline-none text-sm shadow-md w-full"
               />
