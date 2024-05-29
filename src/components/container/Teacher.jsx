@@ -13,13 +13,19 @@ const Teacher = () => {
             Our Platform
           </div>
           <p className="text-sm leading-7 text-gray mb-5">
-            Are you passionate about teaching and sharing your knowledge with others? Join our platform as an instructor and become part of a vibrant community of educators. Whether you're an expert in a specific subject or have valuable skills to offer, our platform provides you with the tools and resources to create engaging and interactive courses. Start making a difference in the lives of learners around the world today.
+            Are you passionate about teaching and sharing your knowledge with
+            others? Join our platform as an instructor and become part of a
+            vibrant community of educators. Whether you're an expert in a
+            specific subject or have valuable skills to offer, our platform
+            provides you with the tools and resources to create engaging and
+            interactive courses. Start making a difference in the lives of
+            learners around the world today.
           </p>
-<a href="https://wa.me/20"></a>
-          <button className="py-3 px-4 bg-Teal text-white rounded-lg text-sm font-bold ">
-            Start Teaching
-          </button>
-
+          <a href="https://wa.me/201111106448">
+            <button className="py-3 px-4 bg-Teal text-white rounded-lg text-sm font-bold ">
+              Start Teaching
+            </button>
+          </a>
         </div>
         <div className="p-4 md:w-3/4 sm:row-start-1">
           <img src={teacher1} alt="Teacher 1" />
@@ -30,11 +36,19 @@ const Teacher = () => {
             Our Platform
           </div>
           <p className="text-sm leading-7 text-gray mb-5">
-            Are you ready to share your expertise and inspire learners worldwide? Join our platform as an instructor and unlock endless opportunities to showcase your skills. Whether you're an experienced educator or a passionate professional, our platform empowers you to create impactful courses that engage and motivate learners. Start your journey as an instructor today and make a positive impact on the future of education.
+            Are you ready to share your expertise and inspire learners
+            worldwide? Join our platform as an instructor and unlock endless
+            opportunities to showcase your skills. Whether you're an experienced
+            educator or a passionate professional, our platform empowers you to
+            create impactful courses that engage and motivate learners. Start
+            your journey as an instructor today and make a positive impact on
+            the future of education.
           </p>
-          <button className="py-3 px-4 bg-Teal text-white rounded-lg text-sm font-bold ">
-            Get Started
-          </button>
+          <a href="https://wa.me/201111106448">
+            <button className="py-3 px-4 bg-Teal text-white rounded-lg text-sm font-bold ">
+              Get Started
+            </button>
+          </a>
         </div>
         <div className="p-4 md:w-3/4">
           <img src={teacher2} alt="Teacher 2" />
