@@ -3,7 +3,7 @@ import {
   Navbar,
   Home,
   About,
-  Courses,
+  // Courses,
   Teacher,
   // Contact,
   Footer
@@ -28,7 +28,7 @@ const App = () => {
         <Navbar />
         <Home />
         <About />
-        <Courses />
+        {/* <Courses /> */}
         <Teacher />
         {/* <Contact /> */}
         <Footer />

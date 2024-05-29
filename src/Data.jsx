@@ -27,11 +27,11 @@ export const navLinks = [
         href: "about",
         link: "About",
     },
-    {
-        id: 3,
-        href: "courses",
-        link: "Courses",
-    },
+    // {
+    //     id: 3,
+    //     href: "courses",
+    //     link: "Courses",
+    // },
     {
         id: 4,
         href: "teacher",
