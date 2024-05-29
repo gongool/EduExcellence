@@ -15,7 +15,7 @@ const Teacher = () => {
           <p className="text-sm leading-7 text-gray mb-5">
             Are you passionate about teaching and sharing your knowledge with
             others? Join our platform as an instructor and become part of a
-            vibrant community of educators. Whether you're an expert in a
+            vibrant community of educators. Whether you&apos;re an expert in a
             specific subject or have valuable skills to offer, our platform
             provides you with the tools and resources to create engaging and
             interactive courses. Start making a difference in the lives of
@@ -38,7 +38,7 @@ const Teacher = () => {
           <p className="text-sm leading-7 text-gray mb-5">
             Are you ready to share your expertise and inspire learners
             worldwide? Join our platform as an instructor and unlock endless
-            opportunities to showcase your skills. Whether you're an experienced
+            opportunities to showcase your skills. Whether you&apos;re an experienced
             educator or a passionate professional, our platform empowers you to
             create impactful courses that engage and motivate learners. Start
             your journey as an instructor today and make a positive impact on
