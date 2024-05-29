@@ -1,4 +1,4 @@
-import React from "react";
+/* eslint-disable react/prop-types */
 import { Link } from "react-scroll";
 const MobileNavLinks = ({ setToggle, href, link }) => {
     return (

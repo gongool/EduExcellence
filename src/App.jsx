@@ -5,7 +5,7 @@ import {
   About,
   Courses,
   Teacher,
-  Contact,
+  // Contact,
   Footer
 } from "./components/index";
 
@@ -30,7 +30,7 @@ const App = () => {
         <About />
         <Courses />
         <Teacher />
-        <Contact />
+        {/* <Contact /> */}
         <Footer />
       </div>
       {loading && <LoadingScreen />}

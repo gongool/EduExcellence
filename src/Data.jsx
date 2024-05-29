@@ -37,11 +37,11 @@ export const navLinks = [
         href: "teacher",
         link: "Teachers",
     },
-    {
-        id: 5,
-        href: "contact",
-        link: "Contact",
-    },
+    // {
+    //     id: 5,
+    //     href: "contact",
+    //     link: "Contact",
+    // },
 ];
 
 export const categories = [

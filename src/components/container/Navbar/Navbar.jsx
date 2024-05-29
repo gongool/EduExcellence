@@ -43,7 +43,7 @@ const Navbar = () => {
             })}
           </div>
           <button className="py-2.5 px-5 font-bold text-sm border border-solid rounded-lg border-gray hover:bg-Teal hover:text-white">
-            Enquire
+            Login
           </button>
           {toggle && (
             <motion.div
