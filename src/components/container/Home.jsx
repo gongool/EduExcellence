@@ -33,12 +33,14 @@ const Home = () => {
           <div className='sm:text-[2.5rem] text-[1.825rem] font-bold ' >
             Unlock The Power of <br /> Innovative Online Learning <br />
           </div>
-          <p className=' leading-7 text-gray  max-w-sm mt-4'>
+          <p className=' leading-7 text-gray  max-w-sm mt-4 '>
             Experience the future of education. Dive into a world of limitless possibilities and transformative learning experiences
           </p>
           <div className='mt-6'>
+            <a href="https://eduexcellence.cloud">
             <button className='px-6 py-3 font-bold bg-Teal rounded-lg text-white mr-4 text-sm hover:scale-110 ' >Get Started</button>
-            <button className='px-6 py-3  font-bold border border-solid border-gray rounded-lg text-sm hover:scale-110'>Discover</button>
+            </a>
+            {/* <button className='px-6 py-3  font-bold border border-solid border-gray rounded-lg text-sm hover:scale-110'>Discover</button> */}
           </div>
         </div>
         <div className='md:w-[60%]'>
@@ -47,7 +49,7 @@ const Home = () => {
       </div>
       <div className='mt-4'>
         <p className='mt-4 text-center text-xl  '>
-          We Collaborate With <span className='text-Teal'> an extensive network of pioneering schools, educators, and training centers at the forefront of education.</span>
+          We collaborate with <span className='text-Teal'> an extensive network of pioneering schools, educators, and training centers at the forefront of education.</span>
         </p>
         {/* <motion.div 
           variants={container}

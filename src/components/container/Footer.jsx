@@ -26,19 +26,19 @@ const Footer = () => {
         </div>
 
         <div>
-          <div className="font-bold mb-6">Courses</div>
+          <div className="font-bold mb-6">Services</div>
           <div className="flex flex-col gap-4">
             <a href="/science" className="text-sm hover:underline">
-              Science
+              Tutors
             </a>
             <a href="/math" className="text-sm hover:underline">
-              Math
+              Centers
             </a>
             <a href="/english" className="text-sm hover:underline">
-              English
+              Schools
             </a>
             <a href="/computer-science" className="text-sm hover:underline">
-              Computer Science
+              LMS
             </a>
           </div>
         </div>
@@ -62,22 +62,22 @@ const Footer = () => {
         <div>
           <div className="font-bold mb-6">Follow us</div>
           <div className="text-sm mb-4">info@eduexcellence.education</div>
-          <div className="text-sm">+20 1117776813</div>
-          <div className="text-sm">+20 1099966116</div>
           <div className="text-sm">+20 1111106448</div>
+          <div className="text-sm">+20 1099966116</div>
+          <div className="text-sm">+20 1503503443</div>
           <div className="flex gap-4 mt-4">
             <a href="" className="hover:scale-110 text-xl">
               <BsFacebook />
             </a>
-            <a href="" className="hover:scale-110 text-xl">
+            {/* <a href="" className="hover:scale-110 text-xl">
               <BsInstagram />
-            </a>
+            </a> */}
             <a href="" className="hover:scale-110 text-xl">
               <BsTwitter />
             </a>
-            <a href="" className="hover:scale-110 text-xl">
+            {/* <a href="" className="hover:scale-110 text-xl">
               <BsPinterest />
-            </a>
+            </a> */}
             <a href="" className="hover:scale-110 text-xl">
               <BsLinkedin />
             </a>

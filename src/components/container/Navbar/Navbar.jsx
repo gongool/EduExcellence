@@ -42,9 +42,11 @@ const Navbar = () => {
               return <NavLink key={navLink.id} {...navLink} />;
             })}
           </div>
+          <a href="https://eduexcellence.cloud">
           <button className="py-2.5 px-5 font-bold text-sm border border-solid rounded-lg border-gray hover:bg-Teal hover:text-white">
             Login
           </button>
+          </a>
           {toggle && (
             <motion.div
               initial={{ x: -500, opacity: 0 }}
