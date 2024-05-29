@@ -21,7 +21,7 @@ const Footer = () => {
           <div className="font-bold mb-6">Location</div>
           <div className="flex flex-col items-start gap-4">
             <img src={ocqrcode} alt="Location QR Code" className="w-24" />
-            <p className="text-sm">41, Dokki Street, Office 803</p>
+            <p className="text-sm">41 Dokki Street, Office 803</p>
           </div>
         </div>
 
@@ -85,7 +85,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="text-center mt-12 text-sm font-base text-white">
-        All rights reserved &copy; {new Date().getFullYear()}
+      <span className="font-bold">EduExcellence</span>, all rights reserved &copy; {new Date().getFullYear()}
       </div>
     </motion.div>
   );
