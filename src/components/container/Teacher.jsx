@@ -6,7 +6,7 @@ import Accordion from "./Accordion";
 const Teacher = () => {
   return (
     <div className="section" id="teacher">
-      <div className="grid sm:grid-cols-2 place-items-center gap-8">
+      <div className="grid sm:grid-cols-2 place-items-center justify-between gap-8">
         <div className="pl-5">
           <div className="font-bold sm:text-[1.875rem] text-[1.5rem] mb-5">
             Become <span className="text-Teal">An Instructor</span> <br /> of
@@ -38,11 +38,11 @@ const Teacher = () => {
           <p className="text-sm leading-7 text-gray mb-5">
             Are you ready to share your expertise and inspire learners
             worldwide? Join our platform as an instructor and unlock endless
-            opportunities to showcase your skills. Whether you&apos;re an experienced
-            educator or a passionate professional, our platform empowers you to
-            create impactful courses that engage and motivate learners. Start
-            your journey as an instructor today and make a positive impact on
-            the future of education.
+            opportunities to showcase your skills. Whether you&apos;re an
+            experienced educator or a passionate professional, our platform
+            empowers you to create impactful courses that engage and motivate
+            learners. Start your journey as an instructor today and make a
+            positive impact on the future of education.
           </p>
           <a href="https://wa.me/201111106448">
             <button className="py-3 px-4 bg-Teal text-white rounded-lg text-sm font-bold ">
