@@ -167,37 +167,28 @@ export const logos = [logo1, logo2, logo3, logo4, logo5, logo6];
 export const accordions = [
     {
         id: 1,
-        title: "What is EduExcellence?",
+        title: "What is EduExcellence LMS?",
         answer: "EduExcellence is a state-of-the-art Learning Management System (LMS) that revolutionizes the way we learn by integrating advanced technology with user-friendly interfaces. It provides a comprehensive solution for educational institutions, offering features like course management, content delivery, interactive learning activities, real-time progress tracking, collaborative tools, and personalized assessments. EduExcellence aims to empower educators and enhance the learning journey of students, making education accessible, interactive, and tailored to individual needs."
     },
     {
         id: 2,
-        title: "Who can benefit from EduExcellence?",
-        answer: "EduExcellence caters to a wide range of users including tutors, educational centers, and schools. It is designed to support educators in creating dynamic and engaging online courses while providing students with a flexible and intuitive learning platform. Additionally, the EduExcellence Academy offers specialized home schooling solutions focused on the IGCSE curriculum and bespoke courses to meet diverse educational needs."
+        title: "Who can benefit from EduExcellence LMS?",
+        answer: "EduExcellence caters to a wide range of users including tutors, educational centers, and schools. It is designed to support educators in creating dynamic and engaging online courses while providing students with a flexible and intuitive learning platform."
     },
     {
         id: 3,
-        title: "What are the main features of EduExcellence?",
+        title: "What are the main features of EduExcellence LMS?",
         answer: "EduExcellence boasts a variety of features aimed at enhancing the educational experience, including: \n- Enhanced Learning Experience with cutting-edge technology\n- Comprehensive Course Management for centralized course handling\n- Real-time Progress Tracking for timely student support\n- Collaborative Tools to foster dynamic learning environments\n- Personalized Assessments to cater to individual learner needs\n- State-of-the-Art Technology integration\n- Real-time Monitoring and Feedback\n- Interactive and Collaborative Learning Tools\n- Customized Learning Pathways."
     },
-    {
-        id: 4,
-        title: "What is EduExcellence Academy?",
-        answer: "EduExcellence Academy is a specialized branch of EduExcellence that focuses on home schooling solutions with an emphasis on the IGCSE curriculum. The academy offers a structured and flexible option for home schooling, catering to diverse student needs. It also provides national student bridging courses to help students transition into the IGCSE curriculum smoothly, along with bespoke courses tailored to provide unique educational experiences."
-    },
+    // {
+    //     id: 4,
+    //     title: "How can EduExcellence LMS benefit my institution?",
+    //     answer: "EduExcellence offers numerous benefits to educational institutions, including streamlined administrative processes, enhanced communication with stakeholders, and improved student engagement. By using EduExcellence, institutions can save time and resources on tasks such as HR management, admissions, and course delivery. Additionally, the platform provides valuable insights through analytics and reporting tools, enabling institutions to make data-driven decisions to improve performance and outcomes."
+    // },
     {
         id: 5,
-        title: "How does EduExcellence support home schooling?",
-        answer: "EduExcellence Academy supports home schooling by offering a structured yet flexible approach to education, specifically designed for the IGCSE curriculum. It provides comprehensive resources and tools for parents and students to manage their educational journey effectively. The academy also offers national student bridging courses to ensure students are well-prepared for the IGCSE curriculum, as well as bespoke courses to cater to individual learning needs."
-    },
-    {
-        id: 6,
-        title: "How can EduExcellence benefit my institution?",
-        answer: "EduExcellence offers numerous benefits to educational institutions, including streamlined administrative processes, enhanced communication with stakeholders, and improved student engagement. By using EduExcellence, institutions can save time and resources on tasks such as HR management, admissions, and course delivery. Additionally, the platform provides valuable insights through analytics and reporting tools, enabling institutions to make data-driven decisions to improve performance and outcomes."
-    },
-    {
-        id: 7,
-        title: "How does EduExcellence enhance the learning experience?",
+        title: "How does EduExcellence LMS enhance the learning experience?",
         answer: "EduExcellence enhances the learning experience by incorporating advanced technology and user-friendly interfaces to deliver an enriched educational environment. The platform offers interactive learning activities, real-time progress tracking, collaborative tools, and personalized assessments, which help create a dynamic and engaging learning experience for both educators and students. This approach ensures that learning is accessible, interactive, and tailored to the needs of each individual student."
     }
 ];
+

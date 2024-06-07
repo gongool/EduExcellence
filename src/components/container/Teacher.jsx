@@ -1,12 +1,12 @@
-import teacher1 from "../../assets/teacher1.png";
-import teacher2 from "../../assets/teacher2.png";
+// import teacher1 from "../../assets/teacher1.png";
+// import teacher2 from "../../assets/teacher2.png";
 import { accordions } from "../../Data";
 import Accordion from "./Accordion";
 
 const Teacher = () => {
   return (
     <div className="section" id="teacher">
-      <div className="grid sm:grid-cols-2 place-items-center justify-between gap-8">
+      {/* <div className="grid sm:grid-cols-2 place-items-center justify-between gap-8">
         <div className="pl-5">
           <div className="font-bold sm:text-[1.875rem] text-[1.5rem] mb-5">
             Become <span className="text-Teal">An Instructor</span> <br /> of
@@ -56,7 +56,7 @@ const Teacher = () => {
       </div>
       <div className="text-center my-8 font-bold sm:text-[1.875rem] text-[1.5rem]">
         Frequently <span className="text-Teal">Asked Questions</span>
-      </div>
+      </div> */}
       <div className="mt-12 max-w-[700px] mx-auto">
         {accordions.map((accordion) => {
           return <Accordion key={accordion.id} {...accordion} />;

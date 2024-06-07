@@ -21,7 +21,7 @@ const Footer = () => {
           <div className="font-bold mb-6">Location</div>
           <div className="flex flex-col items-start gap-4">
             <img src={ocqrcode} alt="Location QR Code" className="w-24" />
-            <p className="text-sm">41 Dokki Street, Office 803</p>
+            <p className="text-sm">41 Dokki Street<br/>Office 803</p>
           </div>
         </div>
 
@@ -29,16 +29,16 @@ const Footer = () => {
           <div className="font-bold mb-6">Services</div>
           <div className="flex flex-col gap-4">
             <a href="/science" className="text-sm hover:underline">
-              Tutors
+              Tutors LMS
             </a>
             <a href="/math" className="text-sm hover:underline">
-              Centers
+             Centers LMS
             </a>
             <a href="/english" className="text-sm hover:underline">
-              Schools
+              Schools LMS
             </a>
             <a href="/computer-science" className="text-sm hover:underline">
-              LMS
+              Tailored LMS
             </a>
           </div>
         </div>
