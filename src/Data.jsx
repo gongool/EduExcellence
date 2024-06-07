@@ -24,8 +24,8 @@ export const navLinks = [
     },
     {
         id: 2,
-        href: "about",
-        link: "About",
+        href: "features",
+        link: "Features",
     },
     // {
     //     id: 3,
@@ -34,13 +34,13 @@ export const navLinks = [
     // },
     {
         id: 4,
-        href: "teacher",
-        link: "Teachers",
+        href: "about",
+        link: "About",
     },
     // {
     //     id: 5,
-    //     href: "contact",
-    //     link: "Contact",
+    //     href: "quote",
+    //     link: "Request a Quote",
     // },
 ];
 

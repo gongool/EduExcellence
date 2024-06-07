@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+/* eslint-disable react/prop-types */
+import { useState } from "react";
 import { BsChevronDown } from "react-icons/bs";
 import { motion, AnimatePresence } from "framer-motion";
 import { accordions } from "../../Data";

@@ -5,7 +5,7 @@ import Accordion from "./Accordion";
 
 const Teacher = () => {
   return (
-    <div className="section" id="teacher">
+    <div className="section" id="about">
       {/* <div className="grid sm:grid-cols-2 place-items-center justify-between gap-8">
         <div className="pl-5">
           <div className="font-bold sm:text-[1.875rem] text-[1.5rem] mb-5">

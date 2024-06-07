@@ -1,9 +1,9 @@
 import ocqrcode from "../../assets/ocqrcode.png";
 import {
   BsFacebook,
-  BsInstagram,
+  // BsInstagram,
   BsTwitter,
-  BsPinterest,
+  // BsPinterest,
   BsLinkedin, // Import LinkedIn icon
 } from "react-icons/bs";
 import { motion } from "framer-motion";
@@ -60,7 +60,7 @@ const Footer = () => {
           </div>
         </div>
         <div>
-          <div className="font-bold mb-6">Follow us</div>
+          <div className="font-bold mb-6">Contact Us</div>
           <div className="text-sm mb-4">info@eduexcellence.education</div>
           <div className="text-sm">+20 1111106448</div>
           <div className="text-sm">+20 1099966116</div>

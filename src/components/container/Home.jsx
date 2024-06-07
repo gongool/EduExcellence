@@ -33,7 +33,7 @@ const Home = () => {
           <div className='sm:text-[2.5rem] text-[1.825rem] font-bold ' >
             Unlock The Power of <br /> Innovative Online Learning <br />
           </div>
-          <p className=' leading-7 text-gray  max-w-sm mt-4 '>
+          <p className=' leading-7 text-gray  max-w-sm mt-4 ' >
             Experience the future of education. Dive into a world of limitless possibilities and transformative learning experiences
           </p>
           <div className='mt-6'>
@@ -44,7 +44,7 @@ const Home = () => {
           </div>
         </div>
         <div className='md:w-[60%]'>
-          <img src={hero} />
+          <img src={hero} className='rounded-lg'/>
         </div>
       </div>
       <div className='mt-4'>
