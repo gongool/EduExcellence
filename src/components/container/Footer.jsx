@@ -72,9 +72,9 @@ const Footer = () => {
             {/* <a href="" className="hover:scale-110 text-xl">
               <BsInstagram />
             </a> */}
-            <a href="" className="hover:scale-110 text-xl">
+            {/* <a href="" className="hover:scale-110 text-xl">
               <BsTwitter />
-            </a>
+            </a> */}
             {/* <a href="" className="hover:scale-110 text-xl">
               <BsPinterest />
             </a> */}
