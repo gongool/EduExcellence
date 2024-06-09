@@ -66,7 +66,7 @@ const Footer = () => {
           <div className="text-sm">+20 1099966116</div>
           <div className="text-sm">+20 1503503443</div>
           <div className="flex gap-4 mt-4">
-            <a href="" className="hover:scale-110 text-xl">
+            <a href="/" className="hover:scale-110 text-xl">
               <BsFacebook />
             </a>
             {/* <a href="" className="hover:scale-110 text-xl">
@@ -78,7 +78,7 @@ const Footer = () => {
             {/* <a href="" className="hover:scale-110 text-xl">
               <BsPinterest />
             </a> */}
-            <a href="" className="hover:scale-110 text-xl">
+            <a href="/" className="hover:scale-110 text-xl">
               <BsLinkedin />
             </a>
           </div>
