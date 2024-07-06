@@ -2,7 +2,7 @@ import ocqrcode from "../../assets/ocqrcode.png";
 import {
   BsFacebook,
   // BsInstagram,
-  BsTwitter,
+  // BsTwitter,
   // BsPinterest,
   BsLinkedin, // Import LinkedIn icon
 } from "react-icons/bs";
@@ -62,8 +62,8 @@ const Footer = () => {
         <div>
           <div className="font-bold mb-6">Contact Us</div>
           <div className="text-sm mb-4">info@eduexcellence.education</div>
-          <div className="text-sm">+20 1111106448</div>
-          <div className="text-sm">+20 1099966116</div>
+          <div className="text-sm">+20 1127727721</div>
+          {/* <div className="text-sm">+20 1099966116</div> */}
           <div className="text-sm">+20 1503503443</div>
           <div className="flex gap-4 mt-4">
             <a href="/" className="hover:scale-110 text-xl">

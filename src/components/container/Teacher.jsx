@@ -2,6 +2,7 @@
 // import teacher2 from "../../assets/teacher2.png";
 import { accordions } from "../../Data";
 import Accordion from "./Accordion";
+// import { PDFsection } from "./PDFsection";
 
 const Teacher = () => {
   return (
@@ -56,6 +57,9 @@ const Teacher = () => {
       </div>
       <div className="text-center my-8 font-bold sm:text-[1.875rem] text-[1.5rem]">
         Frequently <span className="text-Teal">Asked Questions</span>
+      </div> */}
+      {/* <div className="mb-32">
+        <PDFsection/>
       </div> */}
       <div className="mt-12 max-w-[700px] mx-auto">
         {accordions.map((accordion) => {
