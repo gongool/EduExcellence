@@ -1,6 +1,7 @@
 import hero from "../../assets/hero.webp"
 // import { logos } from '../../Data'
 // import { motion } from "framer-motion"
+import '../../../src/index.css';
 
 const Home = () => {
   // const container = {
@@ -37,9 +38,17 @@ const Home = () => {
             Experience the future of education. Dive into a world of limitless possibilities and transformative learning experiences
           </p>
           <div className='mt-6'>
-            <a href="https://eduexcellence.cloud">
+
+          <a href="base.apk" download>
+      <button className='px-6 py-3 font-bold bg-Teal rounded-lg text-white mr-4 text-sm hover:scale-110 flex items-center'>
+        <i className="fab fa-android mr-2"></i> Download APK
+      </button>
+    </a>
+
+
+            {/* <a href="https://eduexcellence.cloud">
             <button className='px-6 py-3 font-bold bg-Teal rounded-lg text-white mr-4 text-sm hover:scale-110 ' >Get Started</button>
-            </a>
+            </a> */}
             {/* <button className='px-6 py-3  font-bold border border-solid border-gray rounded-lg text-sm hover:scale-110'>Discover</button> */}
           </div>
         </div>
