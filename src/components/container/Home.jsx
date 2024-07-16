@@ -49,7 +49,7 @@ const Home = () => {
             {/* <a href="https://eduexcellence.cloud">
             <button className='px-6 py-3 font-bold bg-Teal rounded-lg text-white mr-4 text-sm hover:scale-110 ' >Get Started</button>
             </a> */}
-            {/* <button className='px-6 py-3  font-bold border border-solid border-gray rounded-lg text-sm hover:scale-110'>Discover</button> */}
+            {/* <button className='px-6 py-3  font-bold border border-solid border-gray rounded-lg text-sm hover:scale-110'>Discover it</button> */}
           </div>
         </div>
         <div className='md:w-[60%]'>
