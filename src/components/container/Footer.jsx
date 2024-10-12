@@ -64,7 +64,7 @@ const Footer = () => {
           <div className="text-sm mb-4">info@eduexcellence.education</div>
           <div className="text-sm">+20 1127727721</div>
           {/* <div className="text-sm">+20 1099966116</div> */}
-          <div className="text-sm">+971 502414190</div>
+          {/* <div className="text-sm">+971 502414190</div> */}
           <div className="flex gap-4 mt-4">
             <a href="/" className="hover:scale-110 text-xl">
               <BsFacebook />
